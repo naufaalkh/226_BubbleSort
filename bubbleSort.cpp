@@ -14,7 +14,7 @@ void input()
             break;
         else
         {
-            cout << "\nArray dapat mempunyai maksimal 20 eleman.\n";
+            cout << "\nArray dapat mempunyai maksimal 20 elemen.\n";
         }
     }
     cout << endl;
@@ -27,4 +27,9 @@ void input()
         cout << "data ke-" << (i + 1) << ": ";
         cin >> arr[i];
     }
+}
+void bubbleSortArray()
+{                 // procedur untuk mengurutkan array
+    int pass = 1; // step 1
+    do
 }
