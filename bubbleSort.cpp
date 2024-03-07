@@ -42,5 +42,8 @@ void bubbleSortArray()
                 arr[j + 1] = temp;
             }
         }
-    }
+
+        pass = pass + 1; // step 4
+    } while (pass < n - 1); // step 5
 }
+
